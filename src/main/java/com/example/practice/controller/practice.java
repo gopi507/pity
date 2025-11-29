@@ -14,6 +14,6 @@ public class practice {
     }
     @GetMapping("/list")
     public List<Integer> list() {
-        return new ArrayList<>(List.of(1, 2, 3, 4));
+        return new ArrayList<>(List.of(1, 2, 3, 4,8,9));
     }
 }
