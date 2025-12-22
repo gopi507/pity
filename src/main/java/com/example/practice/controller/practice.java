@@ -13,7 +13,7 @@ public class practice {
     public String userName() {
         return "gopi";
     }
-    @GetMapping("/list")
+    @GetMapping("/userList")
     public List<Integer> list() {
         return new ArrayList<>(List.of(1, 2, 3, 4,8,9));
     }
