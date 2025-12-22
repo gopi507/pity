@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 public class practice {
-
     @GetMapping("/user")
     public String userName() {
         return "gopi";
